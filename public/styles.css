@@ -12,7 +12,7 @@ html {
 
 .dark-mode {
   background-color: black;
-  color: white;
+  /* color: white; */
 }
 
 .dark-mode > form  {
@@ -298,6 +298,7 @@ ul {
 }
 .container > h4 {
   text-align: center;
+  color: white;
   margin-bottom: 0;
 }
 .token {
