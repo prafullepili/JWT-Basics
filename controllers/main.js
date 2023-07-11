@@ -17,7 +17,6 @@ const login = async (req, res) => {
 
 const dashboard = async (req, res) => {
     const authHeader = req.headers.authorization;
-    console.log(authHeader)
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
         throw new CustomAPIError("No token provided", 401)
     }
